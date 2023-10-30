@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2023/9/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2023/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/admin/ontologies/2023/9/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#stars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Автотранспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Авіатранспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Види_туризму"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Готелі"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Гіди"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Гірський_туризм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Еко-туризм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Екскурсійний_туризм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Екскурсії"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Залізничний_транспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Морський_транспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Музеї"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пляжний_туризм"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Прокат_авто"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Путівки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ресторани"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Розважальні_парки"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Транспорт"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Туристичні_послуги"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Пам&apos;ятки_архітектури"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#забезпечується"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#надає"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#надає_можливість_відвідувати"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rixos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zenon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Будинок_з_химерами"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Діснейленд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Собор_Святого_Петра"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ферарі_Парк"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#stars"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#stars"/>
+        <DataMaxCardinality cardinality="5">
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataMaxCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#stars"/>
+        <Class IRI="#Готелі"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Автотранспорт"/>
+        <Class IRI="#Транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Авіатранспорт"/>
+        <Class IRI="#Транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Готелі"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Гіди"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Гірський_туризм"/>
+        <Class IRI="#Види_туризму"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Еко-туризм"/>
+        <Class IRI="#Види_туризму"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Екскурсійний_туризм"/>
+        <Class IRI="#Види_туризму"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Екскурсії"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Залізничний_транспорт"/>
+        <Class IRI="#Транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Морський_транспорт"/>
+        <Class IRI="#Транспорт"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Музеї"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Пляжний_туризм"/>
+        <Class IRI="#Види_туризму"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Прокат_авто"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Путівки"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ресторани"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Розважальні_парки"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Пам&apos;ятки_архітектури"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Автотранспорт"/>
+        <Class IRI="#Авіатранспорт"/>
+        <Class IRI="#Залізничний_транспорт"/>
+        <Class IRI="#Морський_транспорт"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Готелі"/>
+        <Class IRI="#Музеї"/>
+        <Class IRI="#Ресторани"/>
+        <Class IRI="#Розважальні_парки"/>
+        <Class IRI="#Пам&apos;ятки_архітектури"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Гіди"/>
+        <Class IRI="#Екскурсії"/>
+        <Class IRI="#Прокат_авто"/>
+        <Class IRI="#Путівки"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Гірський_туризм"/>
+        <Class IRI="#Еко-туризм"/>
+        <Class IRI="#Екскурсійний_туризм"/>
+        <Class IRI="#Пляжний_туризм"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ресторани"/>
+        <NamedIndividual IRI="#Chia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Готелі"/>
+        <NamedIndividual IRI="#Ibis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Готелі"/>
+        <NamedIndividual IRI="#Rixos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ресторани"/>
+        <NamedIndividual IRI="#Zenon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Пам&apos;ятки_архітектури"/>
+        <NamedIndividual IRI="#Будинок_з_химерами"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Розважальні_парки"/>
+        <NamedIndividual IRI="#Діснейленд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Пам&apos;ятки_архітектури"/>
+        <NamedIndividual IRI="#Собор_Святого_Петра"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Розважальні_парки"/>
+        <NamedIndividual IRI="#Ферарі_Парк"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#забезпечується"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#надає"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#надає_можливість_відвідувати"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#забезпечується"/>
+        <Class IRI="#Види_туризму"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#надає"/>
+        <Class IRI="#Види_туризму"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#надає_можливість_відвідувати"/>
+        <Class IRI="#Види_туризму"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Види_туризму"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#забезпечується"/>
+        <Class IRI="#Транспорт"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#надає"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#надає_можливість_відвідувати"/>
+        <Class IRI="#Туристичні_об&apos;єкти"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Туристичні_послуги"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#забезпечується</IRI>
+        <Literal>Види туризму забезпечуються Транспортом</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#надає</IRI>
+        <Literal>Види туризму ( туризм) надає туристичні послуги</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#надає_можливість_відвідувати</IRI>
+        <Literal>Туризм надає можливість відвідувати туристичні об&apos;єкти</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
